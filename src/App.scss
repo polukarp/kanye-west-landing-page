@@ -1,0 +1,40 @@
+
+.hero {
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    background: #fff;
+    color: black;
+    display: grid;
+    grid-template-areas: 
+    "logo photo sidebar"
+    "info photo sidebar"
+    "promo photo sidebar";
+
+    grid-template-columns: 2fr 4fr minmax(100px, 1fr);
+    grid-template-rows: 1fr 2fr 2fr;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.photo {
+    grid-area: photo;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.info {
+    grid-area: info;
+}
+
+.promo {
+    grid-area: promo;
+}
+
+.stroke-text {
+    text-shadow: -1px 20px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
