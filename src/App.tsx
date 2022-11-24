@@ -7,7 +7,7 @@ function App() {
 				Ye
 			</div>
 			<div className="photo">
-				<img src="public/main.png"></img>
+				<img src="/main.png"></img>
 			</div>
 			<div className="container sidebar ">
 				<ul
@@ -15,12 +15,12 @@ function App() {
         justify-center uppercase font-bold text-4xl gap-12">
 					<li>
 						<a href="#">
-							<img src="public/Spotify.svg" alt="" />
+							<img src="/Spotify.svg" alt="" />
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<img src="public/Apple.svg" alt="" />
+							<img src="/Apple.svg" alt="" />
 						</a>
 					</li>
 					<li>
@@ -64,7 +64,7 @@ function App() {
 				</p>
 			</div>
 			<div className="container promo flex flex-col justify-center items-center py-2">
-				<img className="w-auto max-h-[220px]" src="public/stem-player-kanye-west 1.png"></img>
+				<img className="w-auto max-h-[220px]" src="/stem-player-kanye-west 1.png"></img>
 				<h2 className="text-6xl font-bold stroke-text text-white py-4">STEMPLAYER</h2>
 				<p className="text-xl font-primary tracking-wider">comes with donda</p>
 			</div>
